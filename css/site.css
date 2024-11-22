@@ -73,3 +73,29 @@ footer .social > a:hover {
             word-break: break-all;
             word-wrap: break-word;
         }
+
+
+.FizzBuzz {
+   font-weight: bold;
+   color: orangered
+   
+}
+
+.Fizz {
+ 
+   color: darkgreen
+}
+
+.Buzz {
+  
+   color: darkblue
+}
+
+.btn-primary, .btn-outline-primary {
+   color: var(--primary-color);
+}
+
+.btn-primary, .btn-outline-primary:hover {
+   background-color: var(--primary-color);
+   color: white;
+}
