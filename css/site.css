@@ -11,12 +11,12 @@
  }
 
  nav {
-    background-color: var(--dark-color);
- }
+    background-color: #110066;
+}
  
  footer {
 
-    background-color: var(--dark-color);
+    background-color:  #110066;
     padding-right: 1rem;
  }
 
@@ -64,7 +64,7 @@ footer .social > a:hover {
   }
 
   .checklist > li i {
-    color: var(--secondary);
+    color: var(--primary-color);
   }
 
   code[class*="language-"],
@@ -98,4 +98,9 @@ footer .social > a:hover {
 .btn-primary, .btn-outline-primary:hover {
    background-color: var(--primary-color);
    color: white;
+}
+
+#fizzbuzz-title {
+    font-family: 'Merienda',
+        cursive;
 }
